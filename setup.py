@@ -18,6 +18,6 @@ setup(name="django_ldap_auth_backend",
       download_url="https://github.com/HHSIDEAlab/django_ldap_auth_backend"
                    "tarball/master",
       install_requires=['django', 'pyldap'],
-      packages=['ldap.backends', ],
+      packages=['django_ldap.backends', ],
       include_package_data=True,
       )
